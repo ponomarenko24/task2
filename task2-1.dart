@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('Input your day number123');
+  print('Input your day number');
   int input = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
   print(convertDay(input));
 }
