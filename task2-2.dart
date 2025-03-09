@@ -7,7 +7,7 @@ void main() {
     while (true) {
       print("Input your number:");
       userInput = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
-      if (userInput > 1 && userInput < 101) {
+      if (userInput > 0 && userInput < 101) {
         if (userInput == generatedNumber) {
          print("YOU WIN!!!");
          break;
